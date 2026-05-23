@@ -7,6 +7,10 @@ public class addnumtest {
 		public boolean testAddnum() {
 			assertEquals(10,addnum(7,3));
 		}
+		@test
+		public boolean testAddnum() {
+			assertEquals(15,addnum(6,19));
+		}
 
 	}
 
